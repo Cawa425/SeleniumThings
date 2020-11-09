@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 
-namespace TestProject1.Helpers
+namespace SeleniumProject.Helpers
 {
     public abstract class HelperBase
     {

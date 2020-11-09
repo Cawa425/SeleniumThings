@@ -10,9 +10,9 @@ using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 using OpenQA.Selenium.Interactions;
 using NUnit.Framework;
-using TestProject1.Models;
+using SeleniumProject.Models;
 
-namespace TestProject1.Helpers
+namespace SeleniumProject.Helpers
 {
     public class MailHelper : HelperBase
 

@@ -3,9 +3,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq.Expressions;
 using System.Threading;
 using NUnit.Framework;
-using TestProject1.Models;
+using SeleniumProject.Models;
 
-namespace TestProject1.Tests
+namespace SeleniumProject.Tests
 {
     [TestFixture]
     public class Test : TestBase

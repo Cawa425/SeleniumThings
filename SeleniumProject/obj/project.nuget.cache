@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lCan4TGzLSRTOD5F4n92Ox6bGr+J0mTUBP3NcjJGBx3P+j8lbr0uxD54lmyCmfW8hauWhy6VUxZLBSespqjYIQ==",
+  "dgSpecHash": "za1eNNvZwXKKCt4EQQeW9n1lrAffse/l3Xrut4pt2damIkocOofAmx2x4lszFVwac/wXfxIsdfR1KgtTW7j6sg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cfifr\\RiderProjects\\TestProject1\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Users\\cfifr\\RiderProjects\\TestProject1\\SeleniumProject\\SeleniumProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cfifr\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\cfifr\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

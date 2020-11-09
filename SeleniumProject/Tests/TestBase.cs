@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace TestProject1.Tests
+namespace SeleniumProject.Tests
 {
     public class TestBase
     {

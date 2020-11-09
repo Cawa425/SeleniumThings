@@ -1,4 +1,4 @@
-﻿namespace TestProject1.Models
+﻿namespace SeleniumProject.Models
 {
     public class MailData
     {

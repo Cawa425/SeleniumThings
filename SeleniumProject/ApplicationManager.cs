@@ -1,9 +1,9 @@
 ﻿using System.Text;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using TestProject1.Helpers;
+using SeleniumProject.Helpers;
 
-namespace TestProject1
+namespace SeleniumProject
 {
     public class ApplicationManager
     {

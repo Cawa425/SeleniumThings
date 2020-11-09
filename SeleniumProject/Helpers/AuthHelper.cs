@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using OpenQA.Selenium;
-using TestProject1.Models;
+using SeleniumProject.Models;
 
-namespace TestProject1.Helpers
+namespace SeleniumProject.Helpers
 {
     public class LoginHelper : HelperBase
     {

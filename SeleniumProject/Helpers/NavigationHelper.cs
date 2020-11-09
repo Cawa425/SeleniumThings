@@ -1,4 +1,4 @@
-﻿namespace TestProject1.Helpers
+﻿namespace SeleniumProject.Helpers
 {
     public class NavigationHelper: HelperBase
     {

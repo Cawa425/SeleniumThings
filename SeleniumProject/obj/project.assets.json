@@ -4594,11 +4594,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cfifr\\RiderProjects\\TestProject1\\TestProject1\\TestProject1.csproj",
-      "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\cfifr\\RiderProjects\\TestProject1\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\cfifr\\RiderProjects\\TestProject1\\SeleniumProject\\SeleniumProject.csproj",
+      "projectName": "SeleniumProject",
+      "projectPath": "C:\\Users\\cfifr\\RiderProjects\\TestProject1\\SeleniumProject\\SeleniumProject.csproj",
       "packagesPath": "C:\\Users\\cfifr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cfifr\\RiderProjects\\TestProject1\\TestProject1\\obj\\",
+      "outputPath": "C:\\Users\\cfifr\\RiderProjects\\TestProject1\\SeleniumProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cfifr\\AppData\\Roaming\\NuGet\\NuGet.Config",
