@@ -20,6 +20,7 @@ namespace SeleniumProject.Helpers
 
         public void Logout()
         {
+            driver.FindElement(By.Id("PH_logoutLink")).Click();
         }
 
         private void Forms(string name, string text)

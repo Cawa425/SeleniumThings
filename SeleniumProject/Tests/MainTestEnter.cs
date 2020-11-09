@@ -33,5 +33,12 @@ namespace SeleniumProject.Tests
             Thread.Sleep(5000);
             App.Mail.EditLast();
         }
+
+        [Test]
+        public void LogoutTest()
+        {
+            App.Auth.Login(new AccountData("y_sanek@bk.ru", "42544321cawa"));
+            App.Auth.Logout();
+        }
     }
 }
