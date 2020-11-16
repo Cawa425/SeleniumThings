@@ -23,7 +23,7 @@ namespace SeleniumProject.Helpers
             driver.FindElement(By.Id("PH_logoutLink")).Click();
         }
 
-        private void Forms(string name, string text)
+        public void Forms(string name, string text)
         {
             driver.FindElement(By.Id(name)).Clear();
             driver.FindElement(By.Id(name)).SendKeys(text);
