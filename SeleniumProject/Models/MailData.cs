@@ -1,7 +1,13 @@
 ﻿namespace SeleniumProject.Models
 {
+   
     public class MailData
     {
+        public MailData()
+        {
+            
+        }
+
         public MailData(string adress, string text)
         {
             Text = text;

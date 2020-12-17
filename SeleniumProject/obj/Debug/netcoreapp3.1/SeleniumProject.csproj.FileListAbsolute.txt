@@ -94,3 +94,5 @@ C:\Users\cfifr\RiderProjects\TestProject1\SeleniumProject\bin\Debug\netcoreapp3.
 C:\Users\cfifr\RiderProjects\TestProject1\SeleniumProject\obj\Debug\netcoreapp3.1\SeleniumProject.csproj.CopyComplete
 C:\Users\cfifr\RiderProjects\TestProject1\SeleniumProject\obj\Debug\netcoreapp3.1\SeleniumProject.dll
 C:\Users\cfifr\RiderProjects\TestProject1\SeleniumProject\obj\Debug\netcoreapp3.1\SeleniumProject.pdb
+C:\Users\cfifr\RiderProjects\TestProject1\SeleniumProject\obj\Debug\netcoreapp3.1\SeleniumProject.csproj.CoreCompileInputs.cache
+C:\Users\cfifr\RiderProjects\TestProject1\SeleniumProject\obj\Debug\netcoreapp3.1\SeleniumProject.genruntimeconfig.cache

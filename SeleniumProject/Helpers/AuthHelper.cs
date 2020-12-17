@@ -10,9 +10,15 @@ namespace SeleniumProject.Helpers
         {
         }
 
+        public bool IsLoggedIn()
+        {
+            return driver.FindElement(By.Id("PH_logoutLink"))==null;
+        }
+        
+
         public void Login(AccountData user)
         {
-            
+
             Forms("mailbox:login-input", user.Username);
             Thread.Sleep(5000);
             Forms("mailbox:password-input", user.Password);
@@ -23,7 +29,7 @@ namespace SeleniumProject.Helpers
             driver.FindElement(By.Id("PH_logoutLink")).Click();
         }
 
-        public void Forms(string name, string text)
+        private void Forms(string name, string text)
         {
             driver.FindElement(By.Id(name)).Clear();
             driver.FindElement(By.Id(name)).SendKeys(text);

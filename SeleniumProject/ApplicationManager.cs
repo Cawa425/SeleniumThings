@@ -37,12 +37,10 @@ namespace SeleniumProject
 
         public static ApplicationManager GetInstance()
         {
-            if (!app.IsValueCreated)
-            {
-                ApplicationManager newInstance = new ApplicationManager();
-                newInstance.Navigation.OpenMainPage();
-                app.Value = newInstance;
-            }
+            if (app.IsValueCreated) return app.Value;
+            var newInstance = new ApplicationManager();
+            newInstance.Navigation.OpenMainPage();
+            app.Value = newInstance;
             return app.Value;
         }
 

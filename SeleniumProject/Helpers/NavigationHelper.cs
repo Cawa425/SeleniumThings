@@ -9,7 +9,7 @@
         }
         public void OpenMailsPage()
         {
-            driver.Navigate().GoToUrl("https://www.mail.ru/inbox");
+            driver.Navigate().GoToUrl("https://e.mail.ru/inbox");
         }
 
         public void OpenSendMails()

@@ -29,11 +29,13 @@ namespace SeleniumProject.Helpers
             driver.FindElement(By.CssSelector("div.input--3slxg")).Click();
             Thread.Sleep(3000);
             driver.FindElement(By.XPath("(//input[@value=''])[2]")).Clear();
-            driver.FindElement(By.XPath("(//input[@value=''])[2]")).SendKeys("kostan-sasha@bk.ru");
+            driver.FindElement(By.XPath("(//input[@value=''])[2]")).SendKeys(mailData.Adress);
             driver.FindElement(By.XPath("(//input[@value=''])[2]")).SendKeys(Keys.Enter);
             driver.FindElement(By.XPath("//div[5]/div/div/div[2]/div/div")).Click();
             driver.FindElement(By.XPath("//div[5]/div/div/div[2]/div")).SendKeys(mailData.Text);
             driver.FindElement(By.XPath("//div[2]/div/span/span/span")).Click();
+            Thread.Sleep(3000);
+            if(driver.FindElement(By.CssSelector(".c2116 > .c211"))!=null) driver.FindElement(By.CssSelector(".c2116 > .c211")).Click();
         }
 
         public void EditLast()
@@ -52,10 +54,7 @@ namespace SeleniumProject.Helpers
         {
             driver.FindElement(By.CssSelector(".button2_select-all > .button2__wrapper")).Click();
             Thread.Sleep(1000);
-            foreach (var findElement in driver.FindElements(By.CssSelector(".ll-av__checkbox")).Skip(1))
-            {
-                findElement.Click();
-            }
+            foreach (var findElement in driver.FindElements(By.CssSelector(".ll-av__checkbox")).Skip(1)) findElement.Click();
             driver.FindElement(By.CssSelector(".button2_delete > .button2__wrapper")).Click();
         }
 

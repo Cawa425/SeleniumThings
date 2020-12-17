@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMailData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MailData>
+    <Text>XEA2852PM1</Text>
+    <Adress>35E87TIIXD@bk.ru</Adress>
+  </MailData>
+  <MailData>
+    <Text>6OGNZHTJ7T</Text>
+    <Adress>WSFN47CO45@bk.ru</Adress>
+  </MailData>
+  <MailData>
+    <Text>WO6IZ4VZMY</Text>
+    <Adress>4O7QFKRWFY@bk.ru</Adress>
+  </MailData>
+</ArrayOfMailData>
